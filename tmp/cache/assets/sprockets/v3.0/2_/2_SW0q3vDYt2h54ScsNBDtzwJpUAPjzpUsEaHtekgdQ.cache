@@ -1,0 +1,5 @@
+I"F(function() {
+  $('#loginModal').modal(options);
+
+}).call(this);
+:ET

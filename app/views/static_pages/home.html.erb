@@ -1,0 +1,11 @@
+
+<% provide(:title,"Home") %>
+
+<title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+<div class="div_content">
+	<h1 >Welcome to the Sample App</h1>
+	<%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+
+</div>
+
+<%= image_tag "logo.png" %>

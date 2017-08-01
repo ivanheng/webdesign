@@ -1,0 +1,7 @@
+I"V(function() {
+  alert("werwer");
+
+  $('#myModal').modal('show');
+
+}).call(this);
+:ET
